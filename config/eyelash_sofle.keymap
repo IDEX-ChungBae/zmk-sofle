@@ -82,6 +82,7 @@
             >;
 
             display-name = "QWERTY";
+            label = "QWERTY";
         };
 
         SYMBOL_LAYER {
