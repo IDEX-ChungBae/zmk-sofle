@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - LEFT WIN
   - '&MOUSE_KP_ALT'
-  - '12345'
+  - $$mdi:keyboard-tab$$
   - '!@#$%'
-  - {t: '$$mdi:keyboard-space$$', s: _}
+  - {t: '$$mdi:keyboard-space$$', h: '12345', s: _}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: NAVIG}
   - '12345'
@@ -186,9 +186,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle, type: held}
+  - {t: QWERTY, h: toggle}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: ), type: held alternate}
