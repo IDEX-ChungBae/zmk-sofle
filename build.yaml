@@ -13,3 +13,5 @@ include:
     artifact-name: eyelash_sofle_studio_left
   - board: eyelash_sofle_left
     shield: settings_reset
+  - board: seeduino_xiao_ble
+    shield: nice_view_adapter_dongle prospector_adaptor
